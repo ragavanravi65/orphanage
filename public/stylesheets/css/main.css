@@ -304,7 +304,7 @@ img.image-responsive.refactorimage {
 .volunteer:before{
 	content:'';
     position: absolute;
-    top: 0%;
+    top: -0.5%;
     left: 50%;
     margin-left: -50px;
     width: 0;
@@ -356,7 +356,7 @@ img.image-responsive.refactorimage {
 .donation:before{
 	content:'';
     position: absolute;
-    top: 0%;
+    top: -0.5%;
     left: 50%;
     margin-left: -50px;
     width: 0;
@@ -386,7 +386,7 @@ img.image-responsive.refactorimage {
 .sponsor:before{
 	content:'';
     position: absolute;
-    top: 0%;
+    top: -0.5%;
     left: 50%;
     margin-left: -50px;
     width: 0;
