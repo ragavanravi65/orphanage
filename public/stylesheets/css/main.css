@@ -9,7 +9,7 @@ body{
 padding-top: 91px;
 font-size: 1.5rem;
 font-family: 'Source Sans Pro', sans-serif;
-overflow-x: hidden;
+
 	
 
 }
@@ -134,8 +134,8 @@ h6{
 	display: block;
 }
 
-.edit img{
-	height:500px;
+.foundersnote.edit img{
+	height:470px;
 }
 /*-------vdo css----------------*/
 .videocss{
@@ -263,10 +263,10 @@ img.image-responsive.refactorimage {
 	height:500px;
 	object-fit: cover;
 	object-position: center;
-	width:100%;
+	max-width:100%;
 }
 
-/* join-us */
+/* join-us--------------------------------------------------------------------------------------------- */
 .join-us{
 	/* float: left; */
 	width:100%;
@@ -300,7 +300,7 @@ img.image-responsive.refactorimage {
 	padding:5px;
 		
 }
-/* volunteer */
+/* volunteer------------------------------------------------------------------------------------ */
 .volunteer:before{
 	content:'';
     position: absolute;
