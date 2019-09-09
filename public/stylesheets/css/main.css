@@ -101,7 +101,7 @@ border-radius: 10px;
 }
 #myCarousel img{
 	height:550px;
-	
+	max-width: 100%;	
 	object-fit: cover;
 	object-position: center;
 }
@@ -136,6 +136,13 @@ h6{
 
 .edit img{
 	height:470px;
+}
+@media screen and (max-width:992px){
+	.foundersnote img{
+		height: 300px;
+		max-width: 100%;
+		margin:0 auto;
+	}
 }
 /*-------vdo css----------------*/
 .videocss{
@@ -176,7 +183,7 @@ h6{
 .gallery{
 	/* float: left; */
 	width:100%;
-	padding:5rem 0;
+	padding:5rem 2rem;
 	position: relative;
 	z-index: 1;
 	color:white;
@@ -193,17 +200,18 @@ h6{
 
 .galleryalign{
 	padding:20px;
-	height:400px;
-	border-radius:50%;
+	height:320px;
+	border-radius:20%;
+	
 }
 .galleryalign:hover{
 	background: white;
-	box-shadow: 1px 1px 15px grey;
+	box-shadow: 1px 1px 15px black;
 	transition:0.5s;
 	color:black;
 }
 
-.icon{
+/* .icon{
 	font-size: 40px;
 	margin:20px auto;
 	padding:20px;
@@ -212,10 +220,10 @@ h6{
 	border:1px solid #fff;
 	border-radius: 50%;
 
-}
+} */
 .galleryalign h3{
 	text-align: center;
-	font-size:15px;
+	font-size:13px;
 	font-weight: 600;
 	text-transform: uppercase;
 	padding-top:0;
@@ -223,15 +231,16 @@ h6{
 }
 .button-align{
 	text-align: center;
+	
 }
 
-img.image-responsive.refactorimage {
-    height: 270px;
+img.img-responsive.refactorimage {
+    height: 200px;
     width: 100%;
-    object-fit: cover;
-    object-position: center;
+    /* object-fit: cover;
+    object-position: center; */
 	margin-bottom: 20px;
-	border-radius:50%;
+	border-radius:20%;
 }
 /*---------------------quotes-------------------*/
 .quotes{
@@ -251,6 +260,7 @@ img.image-responsive.refactorimage {
 	
 }
 .remove-padding-right{
+	padding-right:0px;
 	padding-right:0px;
 	}
 	
@@ -300,6 +310,12 @@ img.image-responsive.refactorimage {
 	padding:5px;
 		
 }
+@media screen and (max-width:992px){
+	.join-us img{
+		height: auto;
+		max-width: 50%;
+	}
+}
 /* volunteer------------------------------------------------------------------------------------ */
 .volunteer:before{
 	content:'';
@@ -315,6 +331,7 @@ img.image-responsive.refactorimage {
 }
 
 .volunteer{
+	height:auto;
 	width:100%;
 	padding:5rem 0;
 	position: relative;
@@ -326,31 +343,41 @@ img.image-responsive.refactorimage {
 	padding: 2px;
 	line-height:2;
 	letter-spacing:1px; 
-	margin:5%;
-	margin-top:10%;
+	padding:5%;
+	margin-top:2%;
 }
 .volunteer .pullleft{
 	text-align: left;
 	text-transform: uppercase;
 	font-weight: 700;
+	padding-left: 5%;
 }
 .volunteer .pullright{
 	text-align: right;
 	text-transform: uppercase;
 	font-weight: 700;
+	padding-right: 5%;
 }
 
 .volunteer.edit img{
-	height:500px;
-	object-fit: cover;
-	object-position: center;
-	width:585px;;
+	margin: 0 auto;
+	height:auto;
+	/* object-fit: cover;
+	object-position: center; */
+	width:100%;
 }
 .volunteer ul li{
 	line-height:2;
 }
-.volunteer .wrapper{
-	text-align: center;
+
+@media screen and (max-width: 992px){
+	.volunteer.edit img{
+		height: 200px;
+		max-width: 100%;
+		margin-top: 56%;
+		padding-right: 10px;
+		
+	}
 }
 /* goods donation----------------------------------------------------------- */
 .donation:before{
@@ -382,6 +409,18 @@ img.image-responsive.refactorimage {
 .goods-highlight{
 	border-left:5px solid #049bff;
 }
+.mapstyling iframe{
+	border:0;
+	padding-left: 0%;
+	padding-right: 20%;
+}
+
+@media screen and (max-width:992px){
+	.mapstyling iframe{
+		padding-left:20%;
+		height:300px;
+	}
+}
 /* sponsor portal--------------------------------- */
 .sponsor:before{
 	content:'';
@@ -403,7 +442,23 @@ img.image-responsive.refactorimage {
 	background:#0099cc;
 	color:white;
 }
-
+.sponsor img{
+	max-width: 100%;
+}
+.resizepay{
+	padding-left:150px;  
+	padding-top:100px;
+}
+@media screen and (max-width:992px){
+	.resizepay{
+		padding:0;
+		padding-left:30px;		
+	}
+	.sponsor img{
+		margin: auto 0;
+		height:200px;
+	}
+}
 /*CONTACT INFO=======================*/
 #errormessage{
 	margin-bottom: 20px;
@@ -537,4 +592,10 @@ hr.style-footer {
 }
 .footwrapper em{
 	font-size: 14px;
+}
+
+@media screen and (max-width:992px){
+	.footwrapper{
+		font-size: 12px;
+	}
 }
