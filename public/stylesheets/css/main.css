@@ -9,13 +9,13 @@ body{
 padding-top: 91px;
 font-size: 1.5rem;
 font-family: 'Source Sans Pro', sans-serif;
-overflow-x: hidden;
+/* overflow-x: hidden; */
 	
 
 }
 /*---------------------------------navigation bars------------------------*/
 .navbar {
-	background: transparent;
+	background: white;
 	border-bottom: none;
 	padding: 20px 0;
 	transition-duration: 0.1s;
@@ -374,9 +374,13 @@ img.img-responsive.refactorimage {
 	.volunteer.edit img{
 		height: 200px;
 		max-width: 100%;
-		margin-top: 56%;
+		margin-top: 50%;
 		padding-right: 10px;
+		border-radius: 50%;
 		
+	}
+	.secondchild{
+		padding-left: 10px;
 	}
 }
 /* goods donation----------------------------------------------------------- */
