@@ -270,6 +270,13 @@ img.img-responsive.refactorimage {
 		padding-left:5%;
 		padding-right:5%;
 	}
+	.quotes .carousel-indicators{
+		opacity:0;
+	}
+	.quotes .carousel-control{
+		opacity:0.5;
+	}
+	
 }
 /* join-us--------------------------------------------------------------------------------------------- */
 .join-us{
