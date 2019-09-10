@@ -26,6 +26,34 @@ font-family: 'Source Sans Pro', sans-serif;
 .navbar-default .navbar-nav>li>a {
 	color: #183532;
 }
+.dropdowncolor{
+	background: white;  /* fallback for old browsers */
+
+}
+.navbar-scroll .dropdowncolor{
+	background: black;
+}
+.dropdown-menu li>a {
+	background:white;
+	color:black;
+	border-radius: 10px;
+	}
+.navbar-scroll .dropdown-menu li>a {
+		background:black;
+		color:white;
+		}
+.dropdown-menu li>a:hover {
+color:grey;
+background: white;
+border-radius: 10px;
+
+}
+.navbar-scroll .dropdown-menu li>a:hover {
+	color:grey;
+	background:black;
+	
+	
+	}
 
 /* jQuery Styles
 ===================================*/
@@ -48,10 +76,7 @@ color:white;
 	color:white;
 	}
 
-.dropdowncolor{
-	background: black;  /* fallback for old browsers */
 
-}
 .navbar-default .navbar-nav>li>a:hover{
 	color:grey;
 	border-radius: 5px;
@@ -65,17 +90,7 @@ color:white;
 	display:block;
 	border-radius: 5px;
 }
-.dropdown-menu li>a {
-	background:black;
-	color:white;
-	border-radius: 10px;
-	}
-.dropdown-menu li>a:hover {
-color:grey;
-background: black;
-border-radius: 10px;
 
-}
 .navbar-default .navbar-nav>.open>a:focus{
 	border-radius: 10px;
 }
@@ -211,16 +226,6 @@ h6{
 	color:black;
 }
 
-/* .icon{
-	font-size: 40px;
-	margin:20px auto;
-	padding:20px;
-	height: 90px;
-	width:85px;
-	border:1px solid #fff;
-	border-radius: 50%;
-
-} */
 .galleryalign h3{
 	text-align: center;
 	font-size:13px;
