@@ -244,36 +244,25 @@ img.img-responsive.refactorimage {
 }
 /*---------------------quotes-------------------*/
 .quotes{
-	padding:0;
-	/* float: left; */
-	width:100%;
+	
+	padding:5rem;
 	position: relative;
 	z-index: 1;
-	background: #e3e1e1;  /* fallback for old browsers */
-	color:black;
-	height:500px;
-
+	background: url("https://images.unsplash.com/photo-1508963493744-76fce69379c0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80");
+	background-attachment: fixed;
+	background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-.itemalign {
-	padding-top:50px;;
+.quotes img{
+	max-width: 100%;
+	max-height: 100%;
 	
 }
-.remove-padding-right{
-	padding-right:0px;
-	padding-right:0px;
-	}
-	
-.remove-padding-left{
-	padding-left:0;
-	padding-right:0px;
-	}
-
-.rightside img{
-	height:500px;
-	object-fit: cover;
-	object-position: center;
-	max-width:100%;
+.quotes .paddingele{
+	padding-left:25%;
+	padding-right:25%;
 }
 
 /* join-us--------------------------------------------------------------------------------------------- */
