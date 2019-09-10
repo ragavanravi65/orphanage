@@ -370,26 +370,17 @@ img.img-responsive.refactorimage {
 	line-height:2;
 }
 
-@media (min-width:768px) and (max-width: 992px){
+@media screen and (max-width: 992px){
 	.volunteer.edit img{
 		height: 200px;
 		max-width: 100%;
-		margin-top: 50%;
+		margin-top: 60%;
 		padding-right: 10px;
 		border-radius: 50%;
 		
 	}
 	.secondchild{
 		padding-left: 10px;
-	}
-}
-@media (max-width:767px){
-	.volunteer.edit img{
-		height: 200px;
-		max-width: 100%;
-		margin-top: 70%;
-		padding-right: 10px;
-		border-radius: 50%;
 	}
 }
 /* goods donation----------------------------------------------------------- */
