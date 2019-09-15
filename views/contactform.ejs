@@ -1,37 +1,38 @@
 <section class="contact edit animatedParent" id="contactdrive" data-appear-top-offset='-200'>
-        <div class="container animated fadeInUp">
+        <div class="animated fadeInUp">
                 <div class="resizeform">
                         <h2><strong>CONTACT</strong></h2>
                         <h6> ENROLL FOR SERVICE</h6>
                         
-                        <form action="/sendmail" method="POST" onsubmit="return Validation()">
+                        <form action="/send" method="POST" onsubmit="return Validation()" id="contactform">
                                 <div class="form-group">
-                                        <label for="fname">Full Name</label>
+                                        <label for="fname">Full Name*</label>
                                                 <input class="form-control" type="text" id="fname" name="firstname" placeholder="Enter Full Name">
+                                                <div class="error" id="nameerr"></div>
                                 </div>
                                 <div class="form-group">
-                                        <label for="email">E-mail</label>
+                                        <label for="email">E-mail*</label>
                                                 <input class="form-control" type="email" id="email" name="email" placeholder="Enter E-mail">
+                                                <div class="error" id="emailerr"></div>
                                 </div>
                                 <div class="form-group">
-                                                <label for="phone">Mobile</label>
+                                                <label for="phone">Mobile*</label>
                                                         <input class="form-control" type="text" id="phone" name="phone" placeholder="Contact Number">
+                                                        <div class="error" id="phoneerr"></div>
                                         </div>
                                 <div class="form-group"><div>
-                                                        <label for="textarea">Message</label>
+                                                        <label for="textarea">Message*</label>
                                                         </div>
                                                         <textarea name="textarea" id="textarea"  placeholder="Enter Your Thoughts"></textarea>
+                                                        <div class="error" id="messageerr"></div>
                                                 </div>
-                                <div class="form-group" id="errormessage">
-                                        
+                                
+                                <div class="form-group alert">  
+                                        Thank you for your response!!
                                 </div>
-                                <div class="form-group">
-                                        
-                                                <button class="btn btn-large btn-danger btn-block">Submit</button>
-                                        
+                                <div class="form-group btncenter">
+                                                <button class="btn btn-lg btn-danger"><span class="leftspan"><i class="fa fa-arrow-circle-left" aria-hidden="true"></i></span> Submit <span class="rightspan"><i class="fa fa-arrow-circle-right iconbut" aria-hidden="true"></i></span></button>
                                                             </div>                
-
-
                         </form>
                 </div>
 

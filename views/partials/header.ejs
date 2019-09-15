@@ -12,10 +12,32 @@
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
     <script type="text/javascript" src="/stylesheets/js/lightbox.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/6.6.1/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/6.6.1/firebase-auth.js"></script>
+<script src="https://www.gstatic.com/firebasejs/6.6.1/firebase-database.js"></script>
+<script>
+ var firebaseConfig = {
+            apiKey: "AIzaSyCEDyE7xL6BtTBTbXue-_TRWMwQju52KWs",
+            authDomain: "vvvlifecarehome.firebaseapp.com",
+            databaseURL: "https://vvvlifecarehome.firebaseio.com",
+            projectId: "vvvlifecarehome",
+            storageBucket: "",
+            messagingSenderId: "751680810989",
+            appId: "1:751680810989:web:9298a9515f55e939da41e4"
+          };
+          // Initialize Firebase
+          firebase.initializeApp(firebaseConfig);
+          var today = new Date();
+    var dd = String(today.getDate());
+    var mm = String(today.getMonth() + 1); //January is 0!
+    var yyyy = today.getFullYear();
+    currenttime = dd + '-' + mm + '-' + yyyy;
+    
+          var messageRef=firebase.database().ref(currenttime);
+          </script>
     <script type="text/javascript" src="/stylesheets/js/formval.js"></script>
-    
-    
-    
+
+
     </head>
     <body>
             <nav class="navbar navbar-expand-md navbar-default navbar-fixed-top" id="myScrollspy">
