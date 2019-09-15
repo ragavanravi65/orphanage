@@ -63,7 +63,7 @@ app.get("/news",function(req,res){
 // res.redirect("/#contactdrive");
 // });
 app.post("/send",function(req,res){
-res.redirect("/#contactdrive");
+res.redirect("/");
 });
 //==========================================================================
 
