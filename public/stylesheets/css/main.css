@@ -105,11 +105,17 @@ border-radius: 10px;
     background: black;
 }
 
-.navbar-scroll .dropdown-menu li>a:hover {
+.navbar-scroll .navbar-default .navbar-nav>.open>a, .navbar-scroll .dropdown-menu li>a:hover, .navbar-scroll .navbar-nav>.open>a:focus {
 	color:#f09800;
 	background:black;
 }
 
+.navbar-scroll button.navbar-toggle.collapsed:hover,
+.navbar-scroll button.navbar-toggle:hover,
+.navbar-scroll button.navbar-toggle:focus,
+.navbar-scroll button.navbar-toggle.collapsed:focus{
+	background: #000000;
+}
 /* jQuery Styles
 ===================================*/
 .navbar-scroll {
@@ -164,7 +170,7 @@ color:white;
 	.navbar-collapse {
 		float: left;
 	  }
-	  li{	
+	.navbar li{	
 		float: left;
 		display: block;
 		width: 100%;
@@ -186,7 +192,7 @@ color:white;
     .navbar-header {
         float:none;
 	}
-	li{	
+	.navbar li{	
 		float: left;
 		display: block;
 		width: 100%;
@@ -639,6 +645,12 @@ img.img-responsive.refactorimage {
 .contact button:active , button:focus, .contact textarea{
 	
 	outline:none !important;
+}
+
+@media screen and (max-width:768px){
+	.resizeform{
+		margin:0 5%;
+	}
 }
 /* image_gallery==================== */
 
