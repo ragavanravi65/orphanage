@@ -60,7 +60,20 @@
 $(document).click(function(){
   $("#dropdown-menu").hide();
 });
-
+</script>
+<script>
+  $(window).scroll(function() {
+    var height = $(window).scrollTop();
+    if (height > 100) {
+        $('.scroll-top').fadeIn();
+    } else {
+        $('.scroll-top').fadeOut();
+    }
+});
+function gotopFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
 </script>
 
 </body>
