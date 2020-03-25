@@ -527,6 +527,12 @@ img.img-responsive.refactorimage {
 		height:300px;
 	}
 }
+
+.donatebutton{
+
+	font-size: 1.6rem;
+}
+
 /* sponsor portal--------------------------------- */
 .sponsor:before{
 	content:'';
@@ -552,8 +558,8 @@ img.img-responsive.refactorimage {
 	max-width: 100%;
 }
 .resizepay{
-	padding-left:150px;  
-	padding-top:100px;
+	padding:2% 0 0 10%;  
+	border-right:1px solid black;
 }
 @media screen and (max-width:992px){
 	.resizepay{
@@ -566,14 +572,7 @@ img.img-responsive.refactorimage {
 	}
 }
 /*CONTACT INFO=======================*/
-/* #errormessage{
-	margin-bottom: 20px;
-	padding:0px;
-	text-align: center;
-	background: #f7af43;
-	border-radius:10px;
-	transition: all 0.5s ease;
-} */
+
 .contact{
 	/* float: left; */
 	width:100%;
